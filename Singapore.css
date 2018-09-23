@@ -1,0 +1,321 @@
+body
+	{
+		margin: 0;
+		font-family: garamond, arial;
+		font-size: 20;
+		color: white;
+		overflow-x: hidden;
+	}
+
+
+.MainHeaderHome
+			{
+				width:100%;
+				background-attachment: fixed;
+                background-repeat: no-repeat;
+			    height: 85%;
+				background-image: url('pics/MainLogoHeader.fw.png');
+			
+			}
+.MainHeaderOther
+			{
+				
+				width:100%;
+				background-attachment: fixed;
+               	background-repeat: no-repeat;
+			   	height: 50%;
+				background-image: url('pics/MainLogoHeader.fw.png');
+			
+			}
+
+h2
+	{
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.9);
+		width: 56%;
+		padding: 10px;
+		margin: auto;
+		text-decoration: none;
+	}
+a 
+	{
+		
+		text-decoration: none;
+	}
+table.outerTable
+					{
+						width:80%;
+						border:"4";
+						padding:"2";
+						float:center;
+						border-style: solid;
+						background-color: rgba(0, 0, 0, 0.9);
+						margin: auto;
+						text-align: center;
+						font-size: 18;
+						
+					}
+table.outerTable td
+				    {
+					   width:50%;
+					   font-size: 18;
+					
+				    }
+table.inner td 
+                {
+                    width:25%;
+    			    font-size: 18;
+                }
+
+fieldset
+				{
+					width:95%;
+					margin-left:auto;
+					margin-right:auto;
+				}
+fieldset.lefted
+				{
+					text-align:left;
+					width:90%;
+				}
+textarea
+		{
+			 
+			border:3px solid royalblue; 
+			width:80%;
+			
+		}
+input.button
+				{
+					font-size: 18;
+				}
+
+
+.third1
+			{
+				background: blue;
+				background-image: url('pics/abs-singapore-program-hdr.jpg');
+				width:100%;
+                background-repeat: no-repeat;
+			   	height: 50%;
+				
+				
+
+			}
+.third2
+			{
+				background: blue;
+				background-image: url('pics/Lim%20BoSeng%20Memorial.jpg');
+				width:100%;
+                background-repeat: no-repeat;
+			   	height: 50%;
+				
+				
+
+			}
+
+.middle
+				{
+					background: blue;
+					background-image: url('pics/BookingBack.jpg');
+					width:100%;
+                	background-repeat: no-repeat;
+			   		height: 99%;
+					padding: 10px;
+					
+				}
+
+.textBox1
+			{
+				
+				background: rgba(0, 0, 0, 0.9);
+				position: absolute;
+				width: 80%;
+				height: 40%;
+				left:10%;
+				bottom: -80%;
+				padding: 10px;
+				
+				
+			}
+.textBox2
+			{
+				
+				background: rgba(0, 0, 0, 0.9);
+				position: absolute;
+				width: 80%;
+				height: 40%;
+				left:10%;
+				bottom: -45%;
+				padding: 10px;
+				
+				
+			}
+
+.DetailsTextBox1
+			{
+				
+				background: rgba(0, 0, 0, 0.95);
+				position: absolute;
+				width: 80%;
+				height: 20%;
+				left:10%;
+				bottom: -109%;
+				padding: 10px;
+				
+				
+			}
+.DetailsTextBox2
+			{
+				
+				background: rgba(0, 0, 0, 0.95);
+				position: absolute;
+				width: 80%;
+				height: 20%;
+				left:10%;
+				bottom: -74%;
+				padding: 10px;
+				
+				
+			}
+
+
+iframe.Youtube
+				{
+					position:relative;
+					width:100%;
+					height:50%;
+					left:0;
+					border: 0;
+					background-attachment: fixed;
+
+				}
+.second1 
+		{
+			position: relative;
+			background: blue;
+			height: 40%;
+		}
+
+.footer
+		{
+			background: blue;
+			background-image: url("pics/ShoreLine.jpg");
+			background-repeat: no-repeat;
+			height: 25%;
+			width: 100%;
+		}
+
+img.socialMedia1
+			{
+				position: absolute;
+				top:190%;
+				left:40%;
+				z-index: 101;
+			}
+img.socialMedia2
+			{
+				position: absolute;
+				top:155%;
+				left:40%;
+				z-index: 101;
+			}
+.navigation
+			{
+				
+				width:100%;
+			    	height: 10%;
+				position: fixed;
+				top: 0%;
+				left:9%;
+				z-index: 100;
+
+			}
+
+.NavBack
+				{
+					background-image: url('pics/Header.fw.png');
+					z-index: 100;
+					height: 15% ;
+					width:100%;
+					position: fixed;
+					top: 0%;
+					left:0%;
+					position:
+					
+				}
+
+
+ul.navbar 
+	  {
+	         list-style-type:none;
+	         width: 1200px;
+	         margin: 0px auto;
+	  }
+ul.navbar li 
+	    {
+			 float:left;
+	         font-size:30px;
+	    }
+
+a.navbar:link, a.navbar:visited 
+	    			 {
+	         		      display:block;
+	         		      width: 150px;
+	         		      padding: 17px;
+	         		      color: #ffffff;
+	         		      background-color: #478af7;
+	         		      text-align: center;
+	         		      padding: 17px;
+	         		      text-decoration: none;
+	         		      text-transform: uppercase;
+	         		      font-family: garamound, arial;
+	    			 } 
+a.navbar:hover, a.navbar:active 
+	    			 {
+	         		      border: 5px solid white;
+	         		      background-color: #000000;
+	    			 } 
+img.nav	{
+	   		width:70%;
+		}
+
+
+		
+img.gallery:hover
+		{
+			border: 3px solid blue;
+			cursor: pointer;
+		}
+
+.preview img
+		{
+			border: 5px solid #76e032;
+			padding: 1px;
+			width: 1000px;
+			height: 500px;
+		}
+img.gallery
+			{
+				width:10%;
+				padding:1px;
+				
+			
+			}
+img.AttractLogo1
+				{
+					float:right;
+					height:6.3%;
+					margin-right: 10%;
+				}
+img.AttractLogo2
+				{
+					float:left;
+					height:6.3%;
+					margin-left: 10%;
+				}
+p.backToTop
+			{
+				font-size: 30;
+				
+			}

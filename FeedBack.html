@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<title>Singapore</title>
+		<link rel="stylesheet" type="text/css" href="Singapore.css">
+		 
+	</head>
+<body link="white" vlink="white" alink="white">
+	
+	
+	<div class="MainHeaderOther"></div>
+	
+	
+	<div class="NavBack"></div>
+	
+	<div class="navigation">
+		<ul class="navbar">
+			<li> <a href="HomePage.html" class="navbar"><img class="nav" src="pics/home.png"></a></li>
+			<li> <a href="History.html" class="navbar"><img class="nav" src="pics/History.png"></a></li>
+			<li> <a href="Booking.html" class="navbar"><img class="nav" src="pics/Booking.png"></a></li>
+			<li> <a href="FeedBack.html" class="navbar"><img class="nav" src="pics/CheckList.png"></a></li>
+			<li> <a href="Gallery.html" class="navbar"><img class="nav" src="pics/pictures.png"></a></li>
+		</ul>
+	</div>
+	
+	
+	<div class="middle">
+			<form method="post" enctype="text/plain" action="mailto:dasgs7361@googleapps.wrdsb.ca">
+		        
+		       		
+		        <h2>Feedback form</h2>
+		                
+		         <br>
+		        <table class="outerTable">
+		            <tr>
+		                <td colspan="2">
+		                    <fieldset >
+		                        <legend>Personal Information</legend>
+		                        <table class="inner">
+		                            <tr>
+		                                <td>
+		                                    <label>Name: </label>
+		                                    <input type="text" size="30" name="name" placeholder="(Enter Your Name)">
+
+		                                 </td>
+		                                 <td>
+		                                    <label>Your Email Address:</label>
+		                                    <input type="text" size="30" name="email address" placeholder="(Enter Your Address)">
+		                                 </td>
+		                            </tr>
+		                            <tr>
+		                                <td>
+		                                    <label>Gender:</label>
+		                                    <input type="radio" name="gender" value="male"> Male
+		                                    <input type="radio" name="gender" value="female"> Female
+		                                 </td>
+		                                 <td>
+		                                    <label>Age:</label>
+		                                    <select name="ages" size="1">
+		                                        <option value="1-10"> 1-10
+		                                        <option value="11-20"> 11-20
+		                                        <option value="21-30"> 21-30
+		                                        <option value="31-40"> 31-40
+		                                        <option value="41+"> 41+
+		                                    </select>
+		                                 </td>
+		                            </tr>
+		                        </table>
+		                    </fieldset>
+		                </td>
+		            </tr>
+		            <tr>
+		                <td>
+		                    <fieldset class="lefted">
+		                        <label>How did you hear about this website?</label>
+		                        <br>
+		                        <input type="checkbox" name="sourceOfInfo" value="friend"> Friend <br>
+		                        <input type="checkbox" name="sourceOfInfo" value="Co-worker"> Co-worker <br>
+		                        <input type="checkbox" name="sourceOfInfo" value="Parent"> Parent <br>
+		                        <input type="checkbox" name="sourceOfInfo" value="News"> News Station <br>
+		                        Other: <input type="text" name="elements" size="30" placeholder="Please Specify">
+
+		                    </fieldset>
+		                </td>
+		                <td>
+		                    <fieldset class="lefted">
+		                        <label>What is your favourite element in this website?</label> <br>
+		                        <input type="checkbox" name="elements" value="Videos"> Embeded videos <br>
+		                        <input type="checkbox" name="elements" value="Photos"> Photo Gallery <br>
+		                        <input type="checkbox" name="elements" value="Facts"> Facts <br>
+		                        <input type="checkbox" name="elements" value="History"> Infomation on an historic site <br>
+		                        Other: <input type="text" name="elements" size="30" placeholder="Please Specify">
+		                    </fieldset>
+		                </td>
+		            </tr>
+		            <tr>
+
+		                <td colspan="2">
+		                    <fieldset >
+
+		                        <label><b>How likely would you be to recommend this website to someone else? (1-10)</b></label>
+		                        <br>
+		                        <input type="range" name="Recomendation" value=0 min="1" max="10" step="1" list="numbers">
+		                        <datalist id="numbers">
+		                            <option>1</option>
+		                            <option>2</option>
+		                            <option>3</option>
+		                            <option>4</option>
+		                            <option>5</option>
+		                            <option>6</option>
+		                            <option>7</option>
+		                            <option>8</option>
+		                            <option>9</option>
+		                            <option>10</option>
+		                        </datalist>
+		                    </fieldset>
+							<br>
+							 <fieldset >
+
+		                        <label><b>How likely are you to return to this website? (1-10)</b></label>
+		                        <br>
+		                        <input type="range" name="return" value=0 min="1" max="10" step="1" list="numbers">
+		                        
+		                    </fieldset>
+							<br>
+							 <fieldset >
+
+		                        <label><b>How easy was this site for you to use? (1-10)</b></label>
+		                        <br>
+		                        <input type="range" name="EaseOfUse" value=0 min="1" max="10" step="1" list="numbers">
+		                        
+		                    </fieldset> 
+							<br>
+							 <fieldset >
+
+		                        <label><b>How appealing was the website's appearance? (1-10)</b></label>
+		                        <br>
+		                        <input type="range" name="ratings" value=0 min="1" max="10" step="1" list="numbers">
+		                        
+		                    </fieldset>
+		                </td>
+
+		            </tr>
+		            <tr>
+		            <tr>
+		                <td colspan="2" >
+		                    <fieldset>
+		                        <label>Any other comments?</label> <br>
+		                        <textarea name="comments" rows="6" cols="30" wrap></textarea>
+		                    </fieldset>
+		                </td>
+		            </tr>
+		            <tr>
+		                <td colspan="2">
+		                    <fieldset >
+		                        <input type="submit" value="Submit" class="button">
+		                        <input type="reset" value="Clear" class="button">
+		                    </fieldset>
+		                </td>
+		            </tr>
+		        </table>
+
+
+
+
+		    </form>
+
+	</div>
+	
+	
+	<div class="footer">
+		
+		<div class="DetailsTextBox2">
+			
+			<details>
+			   <summary>Copyright 2017</summary>
+			   <p>
+				  All graphic designs on the website are property of Surien Das-Giwojno.
+			   </p>
+        	</details>
+        	<br>
+			<address>
+			   Created by - Surien Das-Giwojno on June 19, 2017 <br>
+			   Contact me at <a href="mailto: dasgs7361@googleapps.wrdsb.ca">dasgs7361@googleapps.wrdsb.ca </a>
+			</address>
+			<p class= "backToTop">
+				<a href="#top">Back to Top</a>
+			</p>
+		</div>
+	</div>
+
+	<img src="pics/SocialMedia.fw.png" class="socialMedia2" usemap="#SocialMedia.fw" style="border-style:none">
+
+
+<div>
+<map id="SocialMedia.fw" name="SocialMedia.fw">
+<area shape="rect" alt="Singapore Hostel" coords="73,49,170,143" href="https://www.facebook.com/singapore/" title="Singapore Hostel" />
+<area shape="circle" alt="Google Plus Singapore Air" coords="245,100,49" href="https://plus.google.com/+singaporeair" title="Google Plus Singapore Air" />
+<area shape="poly" alt="Twitter Singapore" coords="389,50,375,55,369,74,359,75,339,61,331,53,327,67,332,83,335,86,327,83,331,95,338,107,333,107,346,119,348,124,332,133,321,132,342,143,366,148,397,122,408,78,418,65,410,65,416,54,403,56" href="https://twitter.com/twittersg?lang=en" title="Twitter Singapore" />
+<area shape="rect" alt="Popular On Youtube Singapore" coords="449,56,544,144" href="https://www.youtube.com/channel/UCfjo7g96VOIVH_WF_-MikiQ" title="Popular On Youtube Singapore" />
+<area shape="default" nohref="nohref" alt="" />
+</map>
+</div>
+</body>
+
+</html>

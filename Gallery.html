@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Singapore</title>
+		<link rel="stylesheet" type="text/css" href="Singapore.css">
+		 
+	</head>
+<body link="white" vlink="white" alink="white">
+	
+	
+	<div class="MainHeaderOther"></div>
+	
+	
+	<div class="NavBack"></div>
+	
+	<div class="navigation">
+		<ul class="navbar">
+			<li> <a href="HomePage.html" class="navbar"><img class="nav" src="pics/home.png"></a></li>
+			<li> <a href="History.html" class="navbar"><img class="nav" src="pics/History.png"></a></li>
+			<li> <a href="Booking.html" class="navbar"><img class="nav" src="pics/Booking.png"></a></li>
+			<li> <a href="FeedBack.html" class="navbar"><img class="nav" src="pics/CheckList.png"></a></li>
+			<li> <a href="Gallery.html" class="navbar"><img class="nav" src="pics/pictures.png"></a></li>
+		</ul>
+	</div>
+	
+	
+	<div class="middle">
+		<br>
+		<a href =http://www.singapore-vacation-attractions.com/zoo-animal-pictures.html>
+			<img src="pics/SingaporeVacAttractionsLogo.JPG" class="AttractLogo1" alt="logo for attraction site" style="border-style:none">
+			<img src="pics/SingaporeVacAttractionsLogo.JPG" class="AttractLogo2"  alt="logo for attraction site" style="border-style:none">
+		
+			<h2>Gallery (Singapore Zoo)</h2>
+		</a>
+		<div id="imageThumbNails"><br></div>
+		
+		<script>
+			var paramter=["","",""];
+
+			for (i = 1; i <= 9; i++)
+			{
+				paramter[0]="preview.src=img" + i.toString() + ".src";
+				paramter[1]="img" + i.toString();
+				paramter[2]="pics/gallery/img" + i.toString() + ".jpg";
+
+				document.getElementById('imageThumbNails').innerHTML += "&nbsp; <img onmouseover = \"" + paramter[0] +   "\" name =\"" + paramter[1] + "\" src=\"" + paramter[2] +"\" class = \"gallery\">";
+
+			}
+		</script>
+		<br>
+		<div class = "preview" align = "center">
+			<img name = "preview"  alt="previewImage" src = "pics/Gallery/img1.jpg">
+		</div>
+
+		
+
+
+	</div>
+	
+	<div class="footer">
+		
+		<div class="DetailsTextBox2">
+			
+			<details>
+			   <summary>Copyright 2017</summary>
+			   <p>
+				  All graphic designs on the website are property of Surien Das-Giwojno.
+			   </p>
+        	</details>
+			<hr>
+			<address>
+			   Created by - Surien Das-Giwojno on June 19, 2017 <br>
+			   Contact me at <a href="mailto: dasgs7361@googleapps.wrdsb.ca">dasgs7361@googleapps.wrdsb.ca </a>
+			</address>
+			<p class= "backToTop">
+				<a href="#top">Back to Top</a>
+			</p>
+			
+		</div>
+	</div>
+
+	<img src="pics/SocialMedia.fw.png" class="socialMedia2" usemap="#SocialMedia.fw" style="border-style:none">
+
+
+<div>
+<map id="SocialMedia.fw" name="SocialMedia.fw">
+<area shape="rect" alt="Singapore Hostel" coords="73,49,170,143" href="https://www.facebook.com/singapore/" title="Singapore Hostel" />
+<area shape="circle" alt="Google Plus Singapore Air" coords="245,100,49" href="https://plus.google.com/+singaporeair" title="Google Plus Singapore Air" />
+<area shape="poly" alt="Twitter Singapore" coords="389,50,375,55,369,74,359,75,339,61,331,53,327,67,332,83,335,86,327,83,331,95,338,107,333,107,346,119,348,124,332,133,321,132,342,143,366,148,397,122,408,78,418,65,410,65,416,54,403,56" href="https://twitter.com/twittersg?lang=en" title="Twitter Singapore" />
+<area shape="rect" alt="Popular On Youtube Singapore" coords="449,56,544,144" href="https://www.youtube.com/channel/UCfjo7g96VOIVH_WF_-MikiQ" title="Popular On Youtube Singapore" />
+<area shape="default" nohref="nohref" alt="" />
+</map>
+</div>
+</body>
+
+</html>
