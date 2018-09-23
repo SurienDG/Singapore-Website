@@ -5,7 +5,7 @@
 ## Current state:
 
 - This website was made as a project for a web design course to explore various css, HTML, and Javascript techniques
-- Website works best at a view port of 1280 x 1024 (wasn't made to be responsive)
+- Website works best at a view port of **1280 x 1024** (wasn't made to be responsive)
 
 ## Future goals:
 - Make responsive
