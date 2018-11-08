@@ -1,6 +1,6 @@
 # Singapore-Website
 
-## View website [here](https://sman13.github.io/Singapore-Website/Gallery.html)
+## View website [here](https://SurienDG.github.io/Singapore-Website/Gallery.html)
 
 ## Current state:
 
